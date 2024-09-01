@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header__top__phone a {
+    text-decoration: none;
+    color: #41454a;
+}
+
+.header__top__phone a:hover {
+    text-decoration: underline;
+}
+
+.header__top__icons ul li {
+    margin-right: 10px;
+}
+
+.header__top__icons ul a {
+    color: #41454a;
+    background-color: #ffc107;
+    border-radius: 50%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+.header__top__icons ul a:hover {
+    background-color: #41454a;
+    color: #ffc107;
+}
